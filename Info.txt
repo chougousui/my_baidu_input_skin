@@ -1,4 +1,4 @@
-﻿Name=WindseekerBC
-Style=WindseekerBC
-Author=Firelion（火狮）
+﻿Name=Workman
+Style=Workman
+Author=Chougousui
 SupportPlatform=SWIA
