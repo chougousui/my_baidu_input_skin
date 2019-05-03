@@ -23,6 +23,13 @@ setting->super skin->lcoal
 
 ### Preparation of skin files
 
+#### Unpack the skin file
+
+```shell
+mv test.bds test.zip
+unzip test.zip
+```
+
 #### File structure
 
 ```shell
@@ -48,7 +55,24 @@ TOUCH_RECT=5,65,44,75
 UP=1
 LEFT=1
 RIGHT=1
-CENTER=q
+CENTER=F41
+
+[KEY2]
+BACK_STYLE=118
+FORE_STYLE=520
+VIEW_RECT=52,65,44,75
+TOUCH_RECT=52,65,44,75
+UP=2
+LEFT=2
+RIGHT=2
+CENTER=z
 ```
 
-Of course, other changes are needed.
+- Of course, other changes are needed.
+- `F41` means `Tab` key.
+
+#### Package skin file
+
+```shell
+zip -r myskin.bds ./*
+```
