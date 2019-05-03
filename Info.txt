@@ -1,0 +1,4 @@
+﻿Name=WindseekerBC
+Style=WindseekerBC
+Author=Firelion（火狮）
+SupportPlatform=SWIA
