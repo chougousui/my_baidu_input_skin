@@ -1,4 +1,4 @@
-﻿Name=Workman
-Style=Workman
+﻿Name=Mobic
+Style=default
 Author=Chougousui
-SupportPlatform=SWIA
+SupportPlatform=A
